@@ -41,7 +41,7 @@ public class U2FFormAuthenticatorFactory implements AuthenticatorFactory {
 
     private static final AuthenticationExecutionModel.Requirement[] REQUIREMENT_CHOICES = {
         AuthenticationExecutionModel.Requirement.REQUIRED,
-        AuthenticationExecutionModel.Requirement.OPTIONAL,
+        AuthenticationExecutionModel.Requirement.ALTERNATIVE,
         AuthenticationExecutionModel.Requirement.DISABLED
     };
 
